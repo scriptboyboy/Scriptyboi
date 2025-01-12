@@ -3,7 +3,7 @@
 
 -- // Variables \\ --
 
-local Ocean = {}
+local Feather = {}
 
 local RS 	 = game:GetService("RunService")
 local TS	 = game:GetService("TweenService")
@@ -72,7 +72,7 @@ end
 local TyrantUI = Instance.new("ScreenGui", RS:IsStudio() and game.Players.LocalPlayer.PlayerGui or gethui())
 TyrantUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-function Ocean:NewWindow()
+function Feather:NewWindow()
 
 	local Window = {
 		CurrentTab = nil
