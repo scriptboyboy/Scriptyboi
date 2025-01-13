@@ -1,7 +1,7 @@
--- // Holic Hub \\ -- 
+-- // WITCH WARE \\ -- 
 -- // Variables \\ --
  
-local Ocean = {}
+local WitchWare = {}
  
 local RS 	 = game:GetService("RunService")
 local TS	 = game:GetService("TweenService")
@@ -67,10 +67,10 @@ end
  
 -- // Instances
  
-local TyrantUI = Instance.new("ScreenGui", RS:IsStudio() and game.Players.LocalPlayer.PlayerGui or gethui())
+local to WitchWareUI = Instance.new("ScreenGui", RS:IsStudio() and game.Players.LocalPlayer.PlayerGui or gethui())
 TyrantUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
  
-function Ocean:NewWindow()
+function WitchWare:NewWindow()
  
 	local Window = {
 		CurrentTab = nil
@@ -81,7 +81,7 @@ function Ocean:NewWindow()
 		Name = "Main",
 		Position = UDim2.fromScale(0.248, 0.220),
 		Size = UDim2.fromScale(0.350, 0.550),
-		Parent = TyrantUI,
+		Parent = WitchWareUI,
 		BackgroundColor3 = Color3.fromRGB(5, 11, 19),
 		BorderSizePixel = 0,
 		ZIndex = 1
@@ -255,7 +255,7 @@ function Ocean:NewWindow()
 			Parent = Main,
 			BackgroundTransparency = 1,
 			Font = Enum.Font.SourceSans,
-			Text = 'Holic Hub / <font color="#FF0000">'..Title..'</font>',
+			Text = 'WitchWare / <font color="#FF0000">'..Title..'</font>',
 			TextScaled = true,
 			TextXAlignment = Enum.TextXAlignment.Left,
 			TextYAlignment = Enum.TextYAlignment.Center,
@@ -1435,7 +1435,7 @@ beam.Width0 = 0.5
 		end
 	end
  
-	--// QB Aimbot Made By 4dsdev on discord. //--
+	--// QB Aimbot Made By A dev named 4vaq. //--
  
 	--// Variables & Services //--
 	local Players = game:GetService("Players")
@@ -3164,14 +3164,14 @@ local BeOn = false
 			end
 		end)
  
-		local OceanLib = Ocean:NewWindow()
-		local t3 = OceanLib:Tab("QB", 10723426986)
-		local t4 = OceanLib:Tab("QB Configs", 10723426986)
-		local t1 = OceanLib:Tab("Catching", 10723426986)
-		local t5 = OceanLib:Tab("Automatics", 10723426986)
-		local t7 = OceanLib:Tab("Kicker", 10723426986)
-		local t6 = OceanLib:Tab("Visuals", 10723426986)
-		local t2 = OceanLib:Tab("Player", 10723424505)
+		local WitchWareLib = WitchWare:NewWindow()
+		local t3 = WitchWareLib:Tab("QB", 10723426986)
+		local t4 = WitchWareLib:Tab("QB Configs", 10723426986)
+		local t1 = WitchWareLib:Tab("Catching", 10723426986)
+		local t5 = WitchWareLib:Tab("Automatics", 10723426986)
+		local t7 = WitchWareLib:Tab("Kicker", 10723426986)
+		local t6 = WitchWareLib:Tab("Visuals", 10723426986)
+		local t2 = WitchWareLib:Tab("Player", 10723424505)
 		t1:Dropdown("Magnet Version", {
 			Default  = "None",
 			Options  = {"Magnets V1", "Magnets V2 (RISKY)"},
